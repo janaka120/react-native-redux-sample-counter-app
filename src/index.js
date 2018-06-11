@@ -8,8 +8,8 @@ import reducers from "./reducers";
 const store = createStore(reducers);
 
 const AppContainer = () => (
-  <Provider>
-    <App store={store} />
+  <Provider store={store}>
+    <App />
   </Provider>
 );
 
